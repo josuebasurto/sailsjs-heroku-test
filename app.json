@@ -1,0 +1,21 @@
+{
+  "name": "sailsjs-heroku-test",
+  "description": "Test sailsjs to heroku",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
